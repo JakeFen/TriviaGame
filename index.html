@@ -1,17 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets//css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets//css/reset.css"/>
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Document</title>
-</head>
-<body>
-    
-    
+  </head>
+  <body>
+    <main>
+      <h1>Totally Trivial Trivia!</h1>
+      <div class="start-body">
+        <button class="start-button">Start</button>
+      </div>
 
-    <link rel="stylesheet" href="assets/javascript/app.js">
-</body>
+      <div class="questions-body">
+        <div>
+          <h2>Time Remaining: <span class="count-down"></span> Seconds</h2>
+        </div>
+        <div>
+          <h2>The beaver is the national emblem of which country?</h2>
+          <label for="beaver-emblem">
+          <input type="radio" name="beaver-emblem" />Canada
+          <input type="radio" name="beaver-emblem" />United States
+          <input type="radio" name="beaver-emblem" />Australia
+          <input type="radio" name="beaver-emblem" />Turkey
+        </label>
+        </div>
+        <div>
+          <h2>How many players are there on a baseball team?</h2>
+          <label for="baseball-players">
+          <input type="radio" name="baseball-players" />6
+          <input type="radio" name="baseball-players" />9
+          <input type="radio" name="baseball-players" />12
+          <input type="radio" name="baseball-players" />14
+        </label>
+        </div>
+        <div>
+          <h2>what is the name of Batman's butler?</h2>
+          <label for="batman-butler">
+          <input type="radio" name="batman-butler" />David
+          <input type="radio" name="batman-butler" />Albert
+          <input type="radio" name="batman-butler" />Adam
+          <input type="radio" name="batman-butler" />Alfred
+        </label>
+        </div>
+        <div>
+          <h2>The average human body contains how many pints of blood?</h2>
+          <label for="pint-blood">
+          <input type="radio" name="pint-blood" />3
+          <input type="radio" name="pint-blood" />9
+          <input type="radio" name="pint-blood" />16
+          <input type="radio" name="pint-blood" />22
+        </label>
+        </div>
+        <div>
+          <h2>What is Chandler's last name in sitcom Friends?</h2>
+          <label for="chandlers-last-name">
+          <input type="radio" name="chandlers-last-name" />Bing
+          <input type="radio" name="chandlers-last-name" />Ding
+          <input type="radio" name="chandlers-last-name" />Ring
+          <input type="radio" name="chandlers-last-name" />Sing
+        </label>
+        </div>
+        <div>
+          <h2>Which of the planets is closest to the sun?</h2>
+          <label for="planets">
+          <input type="radio" name="planets" />Earth
+          <input type="radio" name="planets" />Jupiter
+          <input type="radio" name="planets" />Venus
+          <input type="radio" name="planets" />Mercury
+        </label>
+        </div>
+        <div>
+          <h2>
+            According to Greek mythology who was the first woman on earth?
+          </h2>
+          <label for="first-woman">
+          <input type="radio" name="first-woman" />Pandora
+          <input type="radio" name="first-woman" />Eve
+          <input type="radio" name="first-woman" />Eden
+          <input type="radio" name="first-woman" />Nova
+        </label>
+        </div>
+        <div>
+          <h2>What is the most commonly diagnosed cancer in men?</h2>
+          <label for="cancers">
+            <input type="radio" name="cancers" />Skin cancer
+            <input type="radio" name="cancers" />Lung cancer
+            <input type="radio" name="cancers" />Prostate cancer
+            <input type="radio" name="cancers" />Kidney cancer
+          </label>
+        </div>
+        <button class="done-button">Done</button>
+      </div>
+
+      <div class="done-body">
+        <h2>All Done!</h2>
+        <p>Correct Answers: <span class="correct-answers"></span></p>
+        <p>Correct Answers: <span class="incorrect-answers"></span></p>
+        <p>Correct Answers: <span class="unanswered"></span></p>
+      </div>
+    </main>
+
+    <link rel="stylesheet" href="assets/javascript/app.js"/>
+  </body>
 </html>

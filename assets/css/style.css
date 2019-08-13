@@ -1,0 +1,54 @@
+body {
+    background: url("../images/background-design-material-850796.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+main {
+    overflow: hidden;
+    background: whitesmoke;
+    margin: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.start-button, .done-button {
+    padding: 30px 80px;
+    background: lightblue;
+    margin: 50px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.start-button, h2, .done-button{
+    font-size: 25px;
+}
+
+@media only screen and (min-width: 640px) {
+    main{
+        width: 70%;
+        margin: 50px auto;
+    }
+
+    h1 {
+        font-size: 60px;
+        margin: 40px 0 0;
+    }
+
+    .start-button, .done-button {
+        padding: 30px 100px;
+    }
+
+    .start-button, h2, .done-button{
+        font-size: 30px;
+    }
+
+    label, .done-body p{
+        font-size: 20px;
+    }
+}
