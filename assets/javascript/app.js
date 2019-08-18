@@ -2,7 +2,7 @@ $(document).ready(function() {
   var correctAnswers = 0;
   var incorrectAnswers = 0;
   var unanswered = 0;
-  var time = 2;
+  var time = 60;
   var clockRunning = false;
 
   function answers() {
